@@ -3,8 +3,8 @@ kind: Deployment
 metadata:
   name: deploy
 spec:
-  replicas: 5
-  selector:
+  replicas: 
+  selector: 3
     matchLabels:
        app: swiggy
   template:
