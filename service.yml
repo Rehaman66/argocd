@@ -4,7 +4,7 @@ metadata:
   name: svc
 spec:
   type: LoadBalancer
-  selector
+  selector:
     app: swiggy
   ports:
     - port: 80
